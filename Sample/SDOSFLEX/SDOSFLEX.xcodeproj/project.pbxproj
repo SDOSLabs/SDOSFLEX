@@ -48,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		17EFE1856AE679994C7C312D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295DC76423A7603F00F967CD /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../../CHANGELOG.md; sourceTree = "<group>"; };
+		295DC76523A7603F00F967CD /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../../Readme.md; sourceTree = "<group>"; };
 		2970AD751BFA153F007CFBD9 /* SDOSFLEX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDOSFLEX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298FD5B71C0701E500BA707E /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		298FD5B81C0701E500BA707E /* SDOSFLEX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDOSFLEX-Prefix.pch"; sourceTree = "<group>"; };
@@ -121,6 +123,8 @@
 		2970AD6C1BFA153F007CFBD9 = {
 			isa = PBXGroup;
 			children = (
+				295DC76423A7603F00F967CD /* CHANGELOG.md */,
+				295DC76523A7603F00F967CD /* Readme.md */,
 				290A16A21BFB3146002361EF /* App */,
 				2970AD761BFA153F007CFBD9 /* Products */,
 				1A3F2B7365F64DEDC650C528 /* Frameworks */,
@@ -448,6 +452,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				Base,
 				es,
 			);
