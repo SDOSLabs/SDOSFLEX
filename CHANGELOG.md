@@ -1,3 +1,7 @@
+## [1.2.0 Update Flex version](https://github.com/SDOSLabs/SDOSFLEX/tree/v1.2.0)
+
+- Updated podspec to have FLEX 4 as dependency
+
 ## [1.1.0 Update Flex version](https://github.com/SDOSLabs/SDOSFLEX/tree/v1.1.0)
 
 - Updated podspec to have FLEX 3 as dependency

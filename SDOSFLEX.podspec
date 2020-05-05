@@ -1,6 +1,6 @@
-@version = "1.1.0"
+@version = "1.2.0"
 Pod::Spec.new do |spec|
-  spec.platform     = :ios, '8.0'
+  spec.platform     = :ios, '9.0'
   spec.name         = 'SDOSFLEX'
   spec.authors      = 'SDOS'
   spec.version      = @version
@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
     s2.source_files = ['src/Classes/*{*.m,*.h,*.swift}', 'src/Classes/**/*{*.m,*.h,*.swift}']
   end
 
-  spec.dependency 'FLEX', '~> 3.0'
+  spec.dependency 'FLEX', '>= 4.0'
 
 end
