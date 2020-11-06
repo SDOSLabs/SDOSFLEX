@@ -1,3 +1,7 @@
+## [HEAD]
+
+- Add support to Swift Package Manager
+
 ## [1.2.0 Update Flex version](https://github.com/SDOSLabs/SDOSFLEX/tree/v1.2.0)
 
 - Updated podspec to have FLEX 4 as dependency
