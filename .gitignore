@@ -2,6 +2,14 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+### Xcode ###
+*.swiftmodule
+.build/
+build
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+
 ## Build generated
 build/
 DerivedData/
@@ -17,7 +25,6 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 Pods/
-*.xcworkspace
 
 .DS_Store
 

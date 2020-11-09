@@ -8,4 +8,13 @@
 
 //Aplicación
 APP_NAME = FLEX
-BASE_PRODUCT_PACKAGE_NAME = es.sdos.sdosflex
+BASE_PRODUCT_PACKAGE_NAME = es.sdos.sdosflex.dev
+
+//Vesión
+VERSION_NUMBER = 1.1.0
+BUILD_NUMBER = 1
+
+APP_ICON_ASSETS = Debug
+LAUNCHER_ASSETS = Debug
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) KZBDefaultEnv=Debug

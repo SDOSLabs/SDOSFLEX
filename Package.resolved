@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FLEX",
+        "repositoryURL": "https://github.com/SDOSLabs/FLEX.git",
+        "state": {
+          "branch": "feature/spm",
+          "revision": "42aa43ee3fca6d4800db3c6f8dff514962f1962b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

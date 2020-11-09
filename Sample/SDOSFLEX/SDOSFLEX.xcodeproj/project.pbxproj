@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		290D500725554C7A001461C7 /* SDOSFLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 290D500625554C7A001461C7 /* SDOSFLEX */; settings = {ATTRIBUTES = (Weak, ); }; };
 		298FD6471C0701E500BA707E /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5B71C0701E500BA707E /* AppIcon.xcassets */; };
 		298FD6491C0701E500BA707E /* Launcher.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5BA1C0701E500BA707E /* Launcher.xcassets */; };
 		298FD64F1C0701E500BA707E /* KZBEnvironments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5C21C0701E500BA707E /* KZBEnvironments.plist */; };
@@ -40,6 +41,18 @@
 		298FD6721C0701E500BA707E /* Design+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD6391C0701E500BA707E /* Design+Extensions.m */; };
 		298FD6731C0701E500BA707E /* default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 298FD63C1C0701E500BA707E /* default.bundle */; };
 		298FD6741C0701E500BA707E /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD6401C0701E500BA707E /* Util.m */; };
+		29A4054A25553B79002F9F4D /* Design+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD6391C0701E500BA707E /* Design+Extensions.m */; };
+		29A4054B25553B79002F9F4D /* DocumentationFLEXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C95D5B81DC7745A0072EABD /* DocumentationFLEXViewController.m */; };
+		29A4054C25553B79002F9F4D /* StoryboardConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD62C1C0701E500BA707E /* StoryboardConstants.m */; };
+		29A4054D25553B79002F9F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169E1D220B4162500618802 /* AppDelegate.swift */; };
+		29A4054E25553B79002F9F4D /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD6401C0701E500BA707E /* Util.m */; };
+		29A4055225553B79002F9F4D /* ExampleFLEX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C95D5BC1DC775B60072EABD /* ExampleFLEX.storyboard */; };
+		29A4055325553B79002F9F4D /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5B71C0701E500BA707E /* AppIcon.xcassets */; };
+		29A4055425553B79002F9F4D /* default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 298FD63C1C0701E500BA707E /* default.bundle */; };
+		29A4055525553B79002F9F4D /* Launcher.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5BA1C0701E500BA707E /* Launcher.xcassets */; };
+		29A4055625553B79002F9F4D /* KZBEnvironments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5C21C0701E500BA707E /* KZBEnvironments.plist */; };
+		29A4055725553B79002F9F4D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 298FD6341C0701E500BA707E /* Localizable.strings */; };
+		49431F745017656023B373AE /* libPods-SDOSFLEX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F922C75BCE001283ED541508 /* libPods-SDOSFLEX.a */; };
 		5A55E1EFDB8622FE2FA3D3FB /* libPods-SDOSFLEX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F922C75BCE001283ED541508 /* libPods-SDOSFLEX.a */; };
 		5C95D5B91DC7745A0072EABD /* DocumentationFLEXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C95D5B81DC7745A0072EABD /* DocumentationFLEXViewController.m */; };
 		5C95D5BD1DC775B60072EABD /* ExampleFLEX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C95D5BC1DC775B60072EABD /* ExampleFLEX.storyboard */; };
@@ -47,7 +60,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10172370F780C6B90FFE1B3B /* Pods-SDOSFLEX.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.production.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.production.xcconfig"; sourceTree = "<group>"; };
 		17EFE1856AE679994C7C312D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E0B4AE5AD5E836C644D75D /* Pods-SDOSFLEX.preproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.preproduction.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.preproduction.xcconfig"; sourceTree = "<group>"; };
 		295DC76423A7603F00F967CD /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../../CHANGELOG.md; sourceTree = "<group>"; };
 		295DC76523A7603F00F967CD /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../../Readme.md; sourceTree = "<group>"; };
 		2970AD751BFA153F007CFBD9 /* SDOSFLEX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDOSFLEX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,14 +90,13 @@
 		298FD63F1C0701E500BA707E /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		298FD6401C0701E500BA707E /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		298FD6751C0706D400BA707E /* ImagesConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesConstants.h; sourceTree = "<group>"; };
-		4269C6DC931FD2D90C57A238 /* Pods-SDOSFLEX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.debug.xcconfig"; sourceTree = "<group>"; };
+		29A4055D25553B79002F9F4D /* SDOSFLEX-SPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDOSFLEX-SPM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C95D5B71DC7745A0072EABD /* DocumentationFLEXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentationFLEXViewController.h; sourceTree = "<group>"; };
 		5C95D5B81DC7745A0072EABD /* DocumentationFLEXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentationFLEXViewController.m; sourceTree = "<group>"; };
 		5C95D5BC1DC775B60072EABD /* ExampleFLEX.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExampleFLEX.storyboard; sourceTree = "<group>"; };
-		677E7B3C9E92430B128F22BC /* Pods-SDOSFLEX.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.production.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.production.xcconfig"; sourceTree = "<group>"; };
 		B169E1D120B4162500618802 /* SDOSFLEX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDOSFLEX-Bridging-Header.h"; sourceTree = "<group>"; };
 		B169E1D220B4162500618802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA25947B25BFB6DD0FB0EEB5 /* Pods-SDOSFLEX.preproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.preproduction.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.preproduction.xcconfig"; sourceTree = "<group>"; };
+		F69E7E1650B756C0BD847033 /* Pods-SDOSFLEX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDOSFLEX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDOSFLEX/Pods-SDOSFLEX.debug.xcconfig"; sourceTree = "<group>"; };
 		F922C75BCE001283ED541508 /* libPods-SDOSFLEX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDOSFLEX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +106,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A55E1EFDB8622FE2FA3D3FB /* libPods-SDOSFLEX.a in Frameworks */,
+				49431F745017656023B373AE /* libPods-SDOSFLEX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A4054F25553B79002F9F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290D500725554C7A001461C7 /* SDOSFLEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				2970AD751BFA153F007CFBD9 /* SDOSFLEX.app */,
+				29A4055D25553B79002F9F4D /* SDOSFLEX-SPM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -390,9 +414,9 @@
 		FF3EA60266A754F46DBBA282 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4269C6DC931FD2D90C57A238 /* Pods-SDOSFLEX.debug.xcconfig */,
-				BA25947B25BFB6DD0FB0EEB5 /* Pods-SDOSFLEX.preproduction.xcconfig */,
-				677E7B3C9E92430B128F22BC /* Pods-SDOSFLEX.production.xcconfig */,
+				F69E7E1650B756C0BD847033 /* Pods-SDOSFLEX.debug.xcconfig */,
+				24E0B4AE5AD5E836C644D75D /* Pods-SDOSFLEX.preproduction.xcconfig */,
+				10172370F780C6B90FFE1B3B /* Pods-SDOSFLEX.production.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -404,6 +428,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2970AD8F1BFA153F007CFBD9 /* Build configuration list for PBXNativeTarget "SDOSFLEX" */;
 			buildPhases = (
+				29CCFE4B2559349700BAD0C0 /* Xcode Version */,
 				CAC2A90499CBBBC8118BA851 /* [CP] Check Pods Manifest.lock */,
 				2970AD711BFA153F007CFBD9 /* Sources */,
 				2970AD721BFA153F007CFBD9 /* Frameworks */,
@@ -417,6 +442,28 @@
 			name = SDOSFLEX;
 			productName = BaseProject;
 			productReference = 2970AD751BFA153F007CFBD9 /* SDOSFLEX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29A4054725553B79002F9F4D /* SDOSFLEX-SPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A4055925553B79002F9F4D /* Build configuration list for PBXNativeTarget "SDOSFLEX-SPM" */;
+			buildPhases = (
+				29CCFE4C255934A900BAD0C0 /* Xcode Version */,
+				29A4054925553B79002F9F4D /* Sources */,
+				29A4054F25553B79002F9F4D /* Frameworks */,
+				29A4055125553B79002F9F4D /* Resources */,
+				29A4055825553B79002F9F4D /* Warnings */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDOSFLEX-SPM";
+			packageProductDependencies = (
+				290D500625554C7A001461C7 /* SDOSFLEX */,
+			);
+			productName = BaseProject;
+			productReference = 29A4055D25553B79002F9F4D /* SDOSFLEX-SPM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -438,6 +485,10 @@
 								enabled = 1;
 							};
 						};
+					};
+					29A4054725553B79002F9F4D = {
+						DevelopmentTeam = Y5G9RYLF8Y;
+						ProvisioningStyle = Manual;
 					};
 					29AFB1FF1C04BFE7004AB1B6 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -464,6 +515,7 @@
 				2970AD741BFA153F007CFBD9 /* SDOSFLEX */,
 				29AFB1FF1C04BFE7004AB1B6 /* Mogenerator */,
 				29AFB2171C04C3C4004AB1B6 /* AutoGenerate */,
+				29A4054725553B79002F9F4D /* SDOSFLEX-SPM */,
 			);
 		};
 /* End PBXProject section */
@@ -482,9 +534,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29A4055125553B79002F9F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A4055225553B79002F9F4D /* ExampleFLEX.storyboard in Resources */,
+				29A4055325553B79002F9F4D /* AppIcon.xcassets in Resources */,
+				29A4055425553B79002F9F4D /* default.bundle in Resources */,
+				29A4055525553B79002F9F4D /* Launcher.xcassets in Resources */,
+				29A4055625553B79002F9F4D /* KZBEnvironments.plist in Resources */,
+				29A4055725553B79002F9F4D /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		29A4055825553B79002F9F4D /* Warnings */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Warnings;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}/App\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
 		29AFB2041C04BFEE004AB1B6 /* Mogenerator */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,6 +606,42 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}/App\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
+		29CCFE4B2559349700BAD0C0 /* Xcode Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Xcode Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "file=\"$SRCROOT/XcodeVersion.properties\"\n\n# create file if it does not exist\ntouch \"${file}\"\n\n# if file does not exist or it is not readable -> error\nif [ ! -r \"${file}\" ]\nthen\necho \"error: Could not create file: ${file} (see the Xcode Version script in Build Phases)\"\nerror -1\nfi\n# read the keys and values in the file\nwhile IFS='=' read -r key value\ndo\neval \"${key}='${value}'\"\ndone < \"${file}\"\n\n# if not defined the keys: XCODE_VERSION_MAJOR_REQUIRED, XCODE_VERSION_MINOR_REQUIRED, XCODE_VERSION_ACTUAL_REQUIRED\nif ([ -z ${XCODE_VERSION_MAJOR_REQUIRED:+\"1\"} ] || [ -z ${XCODE_VERSION_MINOR_REQUIRED:+\"1\"} ] || [ -z ${XCODE_VERSION_ACTUAL_REQUIRED:+\"1\"} ])\nthen\necho \"XCODE_VERSION_MAJOR_REQUIRED=${XCODE_VERSION_MAJOR}\" > \"${file}\"\necho \"XCODE_VERSION_MINOR_REQUIRED=${XCODE_VERSION_MINOR}\" >> \"${file}\"\necho \"XCODE_VERSION_ACTUAL_REQUIRED=${XCODE_VERSION_ACTUAL}\" >> \"${file}\"\n\necho \"warning: Required Xcode version set to ${XCODE_VERSION_ACTUAL} in this project. If you want to build this project with a different version of Xcode, please remove XcodeVersion.properties file\"\nelif ([ ${XCODE_VERSION_MAJOR_REQUIRED} != ${XCODE_VERSION_MAJOR} ] || [ ${XCODE_VERSION_MINOR_REQUIRED} != ${XCODE_VERSION_MINOR} ])\nthen\necho \"error: [SDOS error] - The required version of Xcode to run this project is ${XCODE_VERSION_MINOR_REQUIRED} and the current version of Xcode is ${XCODE_VERSION_MINOR}. If you want to build this project with a different version of Xcode, please remove XcodeVersion.properties file\"\nerror 0\nelif ([ ${XCODE_VERSION_ACTUAL_REQUIRED} != ${XCODE_VERSION_ACTUAL} ])\nthen\necho \"warning: [SDOS warning] - XCODE VERSION CONFLICT: The required version of Xcode to run this project is ${XCODE_VERSION_ACTUAL_REQUIRED} and the current version of Xcode is ${XCODE_VERSION_ACTUAL}. This might cause some problems at runtime.\"\nfi\n";
+		};
+		29CCFE4C255934A900BAD0C0 /* Xcode Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Xcode Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "file=\"$SRCROOT/XcodeVersion.properties\"\n\n# create file if it does not exist\ntouch \"${file}\"\n\n# if file does not exist or it is not readable -> error\nif [ ! -r \"${file}\" ]\nthen\necho \"error: Could not create file: ${file} (see the Xcode Version script in Build Phases)\"\nerror -1\nfi\n# read the keys and values in the file\nwhile IFS='=' read -r key value\ndo\neval \"${key}='${value}'\"\ndone < \"${file}\"\n\n# if not defined the keys: XCODE_VERSION_MAJOR_REQUIRED, XCODE_VERSION_MINOR_REQUIRED, XCODE_VERSION_ACTUAL_REQUIRED\nif ([ -z ${XCODE_VERSION_MAJOR_REQUIRED:+\"1\"} ] || [ -z ${XCODE_VERSION_MINOR_REQUIRED:+\"1\"} ] || [ -z ${XCODE_VERSION_ACTUAL_REQUIRED:+\"1\"} ])\nthen\necho \"XCODE_VERSION_MAJOR_REQUIRED=${XCODE_VERSION_MAJOR}\" > \"${file}\"\necho \"XCODE_VERSION_MINOR_REQUIRED=${XCODE_VERSION_MINOR}\" >> \"${file}\"\necho \"XCODE_VERSION_ACTUAL_REQUIRED=${XCODE_VERSION_ACTUAL}\" >> \"${file}\"\n\necho \"warning: Required Xcode version set to ${XCODE_VERSION_ACTUAL} in this project. If you want to build this project with a different version of Xcode, please remove XcodeVersion.properties file\"\nelif ([ ${XCODE_VERSION_MAJOR_REQUIRED} != ${XCODE_VERSION_MAJOR} ] || [ ${XCODE_VERSION_MINOR_REQUIRED} != ${XCODE_VERSION_MINOR} ])\nthen\necho \"error: [SDOS error] - The required version of Xcode to run this project is ${XCODE_VERSION_MINOR_REQUIRED} and the current version of Xcode is ${XCODE_VERSION_MINOR}. If you want to build this project with a different version of Xcode, please remove XcodeVersion.properties file\"\nerror 0\nelif ([ ${XCODE_VERSION_ACTUAL_REQUIRED} != ${XCODE_VERSION_ACTUAL} ])\nthen\necho \"warning: [SDOS warning] - XCODE VERSION CONFLICT: The required version of Xcode to run this project is ${XCODE_VERSION_ACTUAL_REQUIRED} and the current version of Xcode is ${XCODE_VERSION_ACTUAL}. This might cause some problems at runtime.\"\nfi\n";
+		};
 		CAC2A90499CBBBC8118BA851 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -560,6 +675,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29A4054925553B79002F9F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A4054A25553B79002F9F4D /* Design+Extensions.m in Sources */,
+				29A4054B25553B79002F9F4D /* DocumentationFLEXViewController.m in Sources */,
+				29A4054C25553B79002F9F4D /* StoryboardConstants.m in Sources */,
+				29A4054D25553B79002F9F4D /* AppDelegate.swift in Sources */,
+				29A4054E25553B79002F9F4D /* Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -576,7 +703,7 @@
 /* Begin XCBuildConfiguration section */
 		2970AD8D1BFA153F007CFBD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 298FD5BD1C0701E500BA707E /* App.debug.xcconfig */;
+			baseConfigurationReference = 298FD5C01C0701E500BA707E /* Shared.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
@@ -636,6 +763,7 @@
 		};
 		2970AD8E1BFA153F007CFBD9 /* Preproduction */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298FD5C01C0701E500BA707E /* Shared.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
@@ -693,7 +821,7 @@
 		};
 		2970AD901BFA153F007CFBD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4269C6DC931FD2D90C57A238 /* Pods-SDOSFLEX.debug.xcconfig */;
+			baseConfigurationReference = F69E7E1650B756C0BD847033 /* Pods-SDOSFLEX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "$(LAUNCHER_ASSETS)";
@@ -704,9 +832,12 @@
 				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
 				INFOPLIST_FILE = App/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = SDOSFLEX;
 				PROVISIONING_PROFILE = "e3c79fee-fab0-4405-be2d-67ad06785abb";
 				PROVISIONING_PROFILE_SPECIFIER = "DEV Generic";
@@ -717,7 +848,7 @@
 		};
 		2970AD911BFA153F007CFBD9 /* Preproduction */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA25947B25BFB6DD0FB0EEB5 /* Pods-SDOSFLEX.preproduction.xcconfig */;
+			baseConfigurationReference = 24E0B4AE5AD5E836C644D75D /* Pods-SDOSFLEX.preproduction.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "$(LAUNCHER_ASSETS)";
@@ -728,17 +859,119 @@
 				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
 				INFOPLIST_FILE = App/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = SDOSFLEX;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
 			};
 			name = Preproduction;
 		};
+		29A4055A25553B79002F9F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "$(LAUNCHER_ASSETS)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y5G9RYLF8Y;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SPM=1",
+				);
+				INFOPLIST_FILE = App/Configuration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e3c79fee-fab0-4405-be2d-67ad06785abb";
+				PROVISIONING_PROFILE_SPECIFIER = "DEV Generic";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SPM;
+				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29A4055B25553B79002F9F4D /* Preproduction */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "$(LAUNCHER_ASSETS)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PREPRODUCTION=1",
+					"$(inherited)",
+					"SPM=1",
+				);
+				INFOPLIST_FILE = App/Configuration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SPM;
+				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
+			};
+			name = Preproduction;
+		};
+		29A4055C25553B79002F9F4D /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "$(LAUNCHER_ASSETS)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"FLEX*",
+					"SDOSFLEX*",
+				);
+				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+					"PRODUCTION=1",
+					"$(inherited)",
+					"SDOSFLEX_Disable=1",
+					"SPM=1",
+				);
+				INFOPLIST_FILE = App/Configuration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SDOSFLEX_Disable SPM";
+				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
+			};
+			name = Production;
+		};
 		29AFB1E61C04A0F8004AB1B6 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298FD5C01C0701E500BA707E /* Shared.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
@@ -797,7 +1030,7 @@
 		};
 		29AFB1E71C04A0F8004AB1B6 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 677E7B3C9E92430B128F22BC /* Pods-SDOSFLEX.production.xcconfig */;
+			baseConfigurationReference = 10172370F780C6B90FFE1B3B /* Pods-SDOSFLEX.production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "$(LAUNCHER_ASSETS)";
@@ -808,9 +1041,12 @@
 				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
 				INFOPLIST_FILE = App/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = SDOSFLEX;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
@@ -882,6 +1118,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Preproduction;
 		};
+		29A4055925553B79002F9F4D /* Build configuration list for PBXNativeTarget "SDOSFLEX-SPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A4055A25553B79002F9F4D /* Debug */,
+				29A4055B25553B79002F9F4D /* Preproduction */,
+				29A4055C25553B79002F9F4D /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Preproduction;
+		};
 		29AFB2031C04BFE7004AB1B6 /* Build configuration list for PBXAggregateTarget "Mogenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -903,6 +1149,13 @@
 			defaultConfigurationName = Preproduction;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		290D500625554C7A001461C7 /* SDOSFLEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SDOSFLEX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2970AD6D1BFA153F007CFBD9 /* Project object */;
 }
