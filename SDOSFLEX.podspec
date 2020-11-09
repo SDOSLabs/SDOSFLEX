@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
     s2.source_files = ['src/Classes/*{*.m,*.h,*.swift}', 'src/Classes/**/*{*.m,*.h,*.swift}']
   end
 
-  spec.dependency 'FLEX', '>= 4.0'
+  spec.dependency 'FLEX', '>= 4.2'
 
 end
