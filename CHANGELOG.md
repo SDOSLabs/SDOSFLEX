@@ -1,4 +1,4 @@
-## [HEAD]
+## [1.3.0 Support Swift Package Manager](https://github.com/SDOSLabs/SDOSFLEX/tree/1.3.0)
 
 - Add support to Swift Package Manager
 
