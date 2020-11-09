@@ -32,7 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		290D4FE325553BD7001461C7 /* SDOSFLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 290D4FE225553BD7001461C7 /* SDOSFLEX */; };
+		290D500725554C7A001461C7 /* SDOSFLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 290D500625554C7A001461C7 /* SDOSFLEX */; settings = {ATTRIBUTES = (Weak, ); }; };
 		298FD6471C0701E500BA707E /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5B71C0701E500BA707E /* AppIcon.xcassets */; };
 		298FD6491C0701E500BA707E /* Launcher.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5BA1C0701E500BA707E /* Launcher.xcassets */; };
 		298FD64F1C0701E500BA707E /* KZBEnvironments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 298FD5C21C0701E500BA707E /* KZBEnvironments.plist */; };
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290D4FE325553BD7001461C7 /* SDOSFLEX in Frameworks */,
+				290D500725554C7A001461C7 /* SDOSFLEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +458,7 @@
 			);
 			name = "SDOSFLEX-SPM";
 			packageProductDependencies = (
-				290D4FE225553BD7001461C7 /* SDOSFLEX */,
+				290D500625554C7A001461C7 /* SDOSFLEX */,
 			);
 			productName = BaseProject;
 			productReference = 29A4055D25553B79002F9F4D /* SDOSFLEX-SPM.app */;
@@ -665,7 +665,7 @@
 /* Begin XCBuildConfiguration section */
 		2970AD8D1BFA153F007CFBD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 298FD5BD1C0701E500BA707E /* App.debug.xcconfig */;
+			baseConfigurationReference = 298FD5C01C0701E500BA707E /* Shared.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
@@ -725,6 +725,7 @@
 		};
 		2970AD8E1BFA153F007CFBD9 /* Preproduction */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298FD5C01C0701E500BA707E /* Shared.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
@@ -797,8 +798,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = SDOSFLEX;
 				PROVISIONING_PROFILE = "e3c79fee-fab0-4405-be2d-67ad06785abb";
 				PROVISIONING_PROFILE_SPECIFIER = "DEV Generic";
@@ -824,8 +825,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = SDOSFLEX;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
@@ -842,17 +843,23 @@
 				DEVELOPMENT_TEAM = Y5G9RYLF8Y;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SPM=1",
+				);
 				INFOPLIST_FILE = App/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e3c79fee-fab0-4405-be2d-67ad06785abb";
 				PROVISIONING_PROFILE_SPECIFIER = "DEV Generic";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SPM;
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -868,16 +875,22 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PREPRODUCTION=1",
+					"$(inherited)",
+					"SPM=1",
+				);
 				INFOPLIST_FILE = App/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SPM;
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
 			};
 			name = Preproduction;
@@ -891,23 +904,36 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"FLEX*",
+					"SDOSFLEX*",
+				);
 				GCC_PREFIX_HEADER = "App/Configuration/SDOSFLEX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+					"PRODUCTION=1",
+					"$(inherited)",
+					"SDOSFLEX_Disable=1",
+					"SPM=1",
+				);
 				INFOPLIST_FILE = App/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SDOSFLEX_Disable SPM";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
 			};
 			name = Production;
 		};
 		29AFB1E61C04A0F8004AB1B6 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298FD5C01C0701E500BA707E /* Shared.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_ASSETS)";
@@ -981,8 +1007,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_PACKAGE_NAME)";
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.sdos.sdosflex.dev;
 				PRODUCT_NAME = SDOSFLEX;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "App/SDOSFLEX-Bridging-Header.h";
@@ -1087,7 +1113,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		290D4FE225553BD7001461C7 /* SDOSFLEX */ = {
+		290D500625554C7A001461C7 /* SDOSFLEX */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SDOSFLEX;
 		};
