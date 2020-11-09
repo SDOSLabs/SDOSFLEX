@@ -13,7 +13,7 @@ let package = Package(
             targets: ["SDOSFLEX"])
     ],
     dependencies: [
-        .package(url: "https://github.com/SDOSLabs/FLEX.git", .branch("feature/spm"))
+        .package(url: "https://github.com/SDOSLabs/FLEX.git", .upToNextMajor(from: "4.3.0"))
     ],
     targets: [
         .target(
