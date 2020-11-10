@@ -8,6 +8,8 @@
   - [Cómo excluir la librería al subir a la App Store](#cómo-excluir-la-librería-al-subir-a-la-app-store)
     - [Cocoapods](#cocoapods-1)
   - [Swift Package Manager](#swift-package-manager-1)
+    - [Usar FLEX en Objective-c](#usar-flex-en-objective-c)
+    - [Usar FLEX en Swift](#usar-flex-en-swift)
   - [Cómo se usa](#cómo-se-usa)
   - [Referencias](#referencias)
 
@@ -110,13 +112,29 @@ FLEXManager.shared.showExplorer()
 
 En el caso de Swift Package Manager hay que hacer una exclusión manual, ya que por el momento no tiene ningún mecanismo de exclusión en base a las configuraciones del proyecto.
 
-Deberemos ir al "Build Settings" de nuestro target y buscar la clave `EXCLUDED_SOURCE_FILE_NAMES`. Aquí tendremos que indicar el valor `FLEX* SDOSFLEX*` a todas aquellas configuraciones que no queremos que la librería esté incluida. De esta forma, al compilar la aplicación, Xcode eliminará cualquier referencia a `FLEX` y `SDOSFLEX` que pueda contener nuestro binario.
+Deberemos ir al "Build Settings" de nuestro target y buscar la siguiente clave:
+
+```
+EXCLUDED_SOURCE_FILE_NAMES
+```
+Tendremos que indicar el valor `FLEX.o SDOSFLEX.o` a todas aquellas configuraciones que no queremos que la librería esté incluida. De esta forma, al compilar la aplicación, Xcode eliminará cualquier referencia a `FLEX` y `SDOSFLEX` que pueda contener nuestro binario. 
+
+**Ojo, las librerías en si seguirán existiendo (por lo que se podrá hacer su import) pero estarán totalmente vacías sin incluir ninguna de sus clases.**
 
 Si necesitamos invocar algún método de la librería `FLEX` en nuestro proyecto debemos encapsular cualquier función de `FLEX` en una condición previa en tiempo de compilación, ya que habrá configuraciones que no tengan la librería y el uso del método provocaría un fallo en tiempo de compilación.
 
-Lo primero que tendremos que hacer es incluir unas variables que podamos usar en tiempo de compilación para saber si nuestra aplicación incluye o no la librería. Hay que configurar dos claves en el "Build Settings" **en las mismas configuraciones donde se han excluido la librería** (en la key `EXCLUDED_SOURCE_FILE_NAMES`).
+Para ello, lo que tendremos que hacer es incluir unas variables que podamos usar en tiempo de compilación para saber si nuestra aplicación incluye o no la librería. Hay que configurar dos claves en el "Build Settings" **en las mismas configuraciones donde se han excluido la librería** (en la key `EXCLUDED_SOURCE_FILE_NAMES`).
 
-Para poder usar código de `FLEX` en Objective-c hay que configurar la clave del "Build Settings" `GCC_PREPROCESSOR_DEFINITIONS` con el valor `SDOSFLEX_Disable=1` en la/s configuraciones correctas. De esta forma podemos usar código de `FLEX` de la siguiente forma:
+### Usar FLEX en Objective-c
+
+Para poder usar código de `FLEX` en Objective-c deberemos ir al "Build Settings" de nuestro target y buscar la siguiente clave:
+
+```
+GCC_PREPROCESSOR_DEFINITIONS
+```
+
+Tendremos que indicar el valor `SDOSFLEX_Disable=1` en la/s configuraciones correctas. De esta forma podemos usar código de `FLEX` de la siguiente forma:
+
 
 ```js
 #if !SDOSFLEX_Disable
@@ -130,8 +148,15 @@ FLEXManager.shared.showExplorer()
 #endif
 ```
 
+### Usar FLEX en Swift
 
-Para poder usar código de `FLEX` en Swift hay que configurar la clave del "Build Settings" `SWIFT_ACTIVE_COMPILATION_CONDITIONS` con el valor `SDOSFLEX_Disable` en la/s configuraciones correctas. De esta forma podemos usar código de `FLEX` de la siguiente forma:
+Para poder usar código de `FLEX` en Swift deberemos ir al "Build Settings" de nuestro target y buscar la siguiente clave:
+
+```
+SWIFT_ACTIVE_COMPILATION_CONDITIONS
+```
+
+Tendremos que indicar el valor `SDOSFLEX_Disable` en la/s configuraciones correctas. De esta forma podemos usar código de `FLEX` de la siguiente forma:
 
 ```js
 #if !SDOSFLEX_Disable
